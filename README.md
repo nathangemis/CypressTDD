@@ -5,7 +5,7 @@ Learn TDD with Cypress and React
 
 npm install cypress --save-dev
 
-*You may have a node_modules folder or package.json in your project. If is not the case, run npm init*
+*You must have a node_modules folder or package.json in your project. If is not the case, run npm init*
 
 ### Open Cypress
 
