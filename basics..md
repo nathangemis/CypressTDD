@@ -13,7 +13,7 @@ describe('Name of your group test',function(){
 
 ### Create your first test suite
 
-describe('My first test',function(){
+describe('My First Test', function(){
   it('Name of your test suite',function()=>{
     
   })
