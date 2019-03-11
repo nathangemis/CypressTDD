@@ -1,0 +1,109 @@
+html {
+    font-family: sans-serif;
+}
+
+.main {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.todoHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(29, 162, 252);
+    min-width: 400px !important;
+    max-width: 400px;
+    height: 40px;
+    border: 1px solid rgb(162, 218, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+input {
+    color: rgb(29, 162, 252);
+    width: 350px;
+    border: none;
+    background: none;
+    height: 40px;
+    font-size: 1em;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.addTodo {
+    border-radius: 100%;
+    background: rgb(29, 162, 252);
+    color: white;
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    border: 1px solid rgb(162, 218, 255);
+    border-bottom: 3px solid rgb(29, 162, 252);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.deleteTodo {
+    border-radius: 100%;
+    color: rgb(162, 218, 255);
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(162, 218, 255);
+    outline: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    background: white;
+    transition: background-color 0.3s;
+}
+
+.deleteTodo:hover {
+    background: rgb(248, 30, 59);
+    color: white;
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgb(162, 218, 255);
+    font-style: italic;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgb(162, 218, 255);
+    font-style: italic;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgb(162, 218, 255);
+    font-style: italic;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgb(162, 218, 255);
+    font-style: italic;
+}
